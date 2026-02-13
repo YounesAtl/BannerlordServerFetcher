@@ -8,6 +8,9 @@
 
 A Node.js utility that authenticates with Steam to fetch the official **Mount & Blade II: Bannerlord** custom server list and archives the data into a PostgreSQL database.
 
+Has been used since around July 2024 but never got around to release the code.
+Website: https://bannerlord-hub.org/server-list
+
 🚀 Features
 
     Steam Authentication: Automatically logs into Steam and generates required access tokens and app tickets.
