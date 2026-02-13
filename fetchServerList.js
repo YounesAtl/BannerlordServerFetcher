@@ -94,7 +94,7 @@ async function main() {
                     // Below logs the complete server list.
                     console.log(response.functionResult._functionResult.AvailableCustomGames.customGameServerInfos[0])
                     // Below i upsert it into my database and add rows for the historical player count.
-                    // await insertServersToPostgres(response.functionResult._functionResult.AvailableCustomGames.customGameServerInfos);
+                    await insertServersToPostgres(response.functionResult._functionResult.AvailableCustomGames.customGameServerInfos);
                 } else {
                     console.error('Unexpected server list response:', response);
                     process.exit(0);
